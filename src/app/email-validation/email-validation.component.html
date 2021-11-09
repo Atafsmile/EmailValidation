@@ -1,0 +1,18 @@
+<form class="gap">
+    <input class="form-control" type="email"  name="email" [(ngModel)]="email"    placeholder="Enter Your Email Here" required>
+    <!--input type="text" class="form-control"placeholder="Email Id" name="email" type="email" email required ngModel #email="ngModel"-->
+    
+
+   
+    <button class="btnn" (click)="getData()" (click)="clearEmail()"> Email Validation</button>
+</form>
+<!--div>{{email}}</div-->
+<div style="color: aqua;background-color: black; width: 100%;height: 65vh; padding: 20px;" >
+<p *ngIf='emails?.is_valid_format.value else notValid'> <br>{{emails?.email}}<br>this email is valid </p>
+<ng-template #notValid><br>{{emails?.email}}
+     this email is  not valid make sure you are typing valid one </ng-template>
+     <p> prevoius email: {{test}}</p>
+    
+
+</div>
+

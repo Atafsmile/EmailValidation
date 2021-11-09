@@ -1,4 +1,7 @@
 # EmailValidation
+![Screenshot (186)](https://user-images.githubusercontent.com/87297598/140952291-4d39768a-9ed5-4540-8558-afbbeb78a761.png)
+
+![Screenshot (187)](https://user-images.githubusercontent.com/87297598/140952333-e6151fb6-b1cc-44d8-b8ec-8c7a0c133c1e.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
 
